@@ -73,7 +73,7 @@ var config_data = `
       "toggleClick": "true",
       "showFlip": "false",
       "showUndo": "false",
-      "shape": "circle 12 black red true"
+      "shape": "circle 20 black red true"
     },
     { "name": "Crossed Cable",
       "code": "acc",
