@@ -5,7 +5,7 @@ var config_data = `
   "checkboxAs": "10",
   "enable_google_sheets": "true",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter Initial",
       "code": "s",
       "gsCol": "scouter",
       "type": "scouter",
