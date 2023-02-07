@@ -1,10 +1,10 @@
 var config_data = `
 {
-  "title": "Scouting PASS 2023",
+  "title": "Scouting PASS 2023 Ravens",
   "page_title": "Charged Up",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter Init",
       "code": "s",
       "type": "scouter",
       "size": 5,
