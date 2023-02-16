@@ -243,11 +243,6 @@ var config_data = `
       "gsCol": "diedOrImmobilized",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
-      "code": "tip",
-      "gsCol": "tippy",
-      "type": "bool"
-    },
     { "name": "Dropped Cones (>2)",
       "code": "dc",
       "gsCol": "droppedCones",
