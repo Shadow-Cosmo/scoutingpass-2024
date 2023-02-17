@@ -136,11 +136,7 @@ var config_data = `
 	}
 		
 	],
-	"endgame": [{
-			"name": "Docking Timer",
-			"code": "dddt",
-			"type": "cycle"
-		},
+	"endgame": [
 		{
 			"name": "Final Status",
 			"code": "fs",
