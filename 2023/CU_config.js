@@ -117,11 +117,6 @@ var config_data = `
 			"type": "cycle"
 		},
 		{
-			"name": "Docking Timer",
-			"code": "ddt",
-			"type": "cycle"
-		},
-		{
 			"name": "Grid Scoring",
 			"code": "tsg",
 			"type": "clickable_image",
@@ -138,19 +133,8 @@ var config_data = `
 		"name": "Dropped",
 		"code": "drp",
 		"type": "counter"
-	},
-		{
-			"name": "Floor Pickup",
-			"code": "fpu",
-			"type": "radio",
-			"choices": {
-				"o": "Cones<br>",
-				"u": "Cubes<br>",
-				"b": "Both<br>",
-				"x": "Not Attempted"
-			},
-			"defaultValue": "x"
-		}
+	}
+		
 	],
 	"endgame": [{
 			"name": "Docking Timer",
@@ -178,12 +162,24 @@ var config_data = `
 	],
 	"postmatch":[
 		{
-			"name": "Died/Immobilized",
+			"name": "Pickup Types",
+			"code": "pu",
+			"type": "radio",
+			"choices": {
+				"g": "ground<br>",
+				"c": "chute<br>",
+				"t": "tray<br>",
+				"x": "Not Attempted"
+			},
+			"defaultValue": "x"
+		},
+		{
+			"name": "Died",
 			"code": "die",
 			"type": "bool"
 		},
 		{
-			"name": "Tippy<br>(almost tipped over)",
+			"name": "Tipped",
 			"code": "tip",
 			"type": "bool"
 		},
