@@ -166,16 +166,19 @@ var config_data = `
 	],
 	"postmatch":[
 		{
-			"name": "Pickup Types",
-			"code": "pu",
-			"type": "radio",
-			"choices": {
-				"g": "ground<br>",
-				"c": "chute<br>",
-				"t": "tray<br>",
-				"x": "Not Attempted"
-			},
-			"defaultValue": "x"
+			"name": "Ground Pickup",
+			"code": "gp",
+			"type": "bool"
+		},
+		{
+			"name": "Tray Pickup",
+			"code": "tp",
+			"type": "bool"
+		},
+		{
+			"name": "Chute Pickup",
+			"code": "cp",
+			"type": "bool"
 		},
 		{
 			"name": "Died",
