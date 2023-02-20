@@ -143,8 +143,8 @@ var config_data = `
 		"name": "Dropped",
 		"code": "drp",
 		"type": "counter"
-	}
-	{
+		},
+		s{
 			"name": "Final Status",
 			"code": "fs",
 			"type": "radio",
