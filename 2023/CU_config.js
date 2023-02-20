@@ -144,7 +144,7 @@ var config_data = `
 		"code": "drp",
 		"type": "counter"
 		},
-		s{
+		{
 			"name": "Final Status",
 			"code": "fs",
 			"type": "radio",
