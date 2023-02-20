@@ -144,10 +144,7 @@ var config_data = `
 		"code": "drp",
 		"type": "counter"
 	}
-		
-	],
-	"endgame": [
-		{
+	{
 			"name": "Final Status",
 			"code": "fs",
 			"type": "radio",
@@ -165,6 +162,7 @@ var config_data = `
 			"code": "dn",
 			"type": "counter"
 		}
+		
 	],
 	"postmatch":[
 		{
