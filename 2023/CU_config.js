@@ -99,6 +99,16 @@ var config_data = `
 			"type": "bool"
 		},
 		{
+			"name": "Crossed Charge Station?",
+			"code": "acs",
+			"type": "bool"
+		},
+		{
+			"name": "Crossed Cable?",
+			"code": "ac",
+			"type": "bool"
+		},
+		{
 			"name": "Docked",
 			"code": "ad",
 			"type": "radio",
