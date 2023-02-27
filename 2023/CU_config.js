@@ -166,6 +166,11 @@ var config_data = `
 	],
 	"postmatch":[
 		{
+			"name": "Was Defended?",
+			"code": "df",
+			"type": "bool"
+		},
+		{
 			"name": "Ground Pickup",
 			"code": "gp",
 			"type": "bool"
