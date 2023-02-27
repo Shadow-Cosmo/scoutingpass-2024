@@ -65,8 +65,8 @@ var config_data = `
 			"code": "pr",
 			"type": "radio",
 			"choices": {
-				"r": "Cube<br>",
-				"e": "Cone<br>",
+				"cu": "Cube<br>",
+				"co": "Cone<br>",
 				"x": "No Preload"
 			},
 			"defaultValue": "x"
