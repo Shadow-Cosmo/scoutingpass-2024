@@ -94,6 +94,11 @@ var config_data = `
 			"shape": "circle 12 black purple true"
 		},
 {
+		"name": "Pickup",
+		"code": "apu",
+		"type": "counter"
+		},
+{
 			"name": "Mobility?",
 			"code": "am",
 			"type": "bool"
@@ -139,7 +144,7 @@ var config_data = `
 			"shape": "circle 12 black purple true",
 			"cycleTimer": "tct"
 		},
-					{
+		{
 		"name": "Dropped",
 		"code": "drp",
 		"type": "counter"
