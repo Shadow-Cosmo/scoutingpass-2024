@@ -47,40 +47,13 @@ html, body{
 
 
 /* Style the Start button */
+/* Style the Start button */
 #start_tct {
-  background: #FF4742;
-  border: 1px solid #FF4742;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 16px;
-  min-height: 40px;
-  outline: 0;
-  padding: 12px 14px;
-  text-align: center;
-  text-rendering: geometricprecision;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-}
-
-#start_tct:hover,
-#start_tct:active {
-  background-color: initial;
-  background-position: 0 0;
-  color: #FF4742;
-}
-
-#start_tct:active {
-  opacity: .5;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
 }
 
 /* Style the Reset button */
@@ -94,15 +67,11 @@ html, body{
 
 /* Style the Pickup button */
 #cycle_tct {
-  background-color: #3b9aa3;
+  background-color: blue;
   color: white;
   border: none;
   padding: 8px;
-  height: 200px;
-  width: 200px;
   border-radius: 4px;
-  font-weight: bold;
-  font-size: 30px;
 }
 
 /* Style the Undo button */
