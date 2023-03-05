@@ -137,7 +137,14 @@ function addTimer(table, idx, name, data) {
   }
    
 if(data.code == "tct") {
-	 var button1 = document.createElement("input");
+  var button4 = document.createElement("input");
+    button4.setAttribute("id", "undo_" + data.code);
+    button4.setAttribute("type", "button");
+    button4.setAttribute("onclick", "undoCycle(this.parentElement)");
+    button4.setAttribute("value", "Undo");
+    button4.setAttribute('style', "margin-left: 20px;");
+    cell.appendChild(button4);
+	var button1 = document.createElement("input");
   button1.setAttribute("id", "start_" + data.code);
   button1.setAttribute("type", "button");
   button1.setAttribute("onclick", "timer(this.parentElement)");
@@ -158,14 +165,8 @@ if(data.code == "tct") {
     button3.setAttribute("onclick", "newCycle(this.parentElement)");
     button3.setAttribute("value", "Pickup");
     cell.appendChild(button3);
-	 cell.appendChild(button3);
-    var button4 = document.createElement("input");
-    button4.setAttribute("id", "undo_" + data.code);
-    button4.setAttribute("type", "button");
-    button4.setAttribute("onclick", "undoCycle(this.parentElement)");
-    button4.setAttribute("value", "Undo");
-    button4.setAttribute('style', "margin-left: 20px;");
-    cell.appendChild(button4);
+    cell.appendChild(button3);
+    
 }
 
   idx += 1
