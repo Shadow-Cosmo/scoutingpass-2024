@@ -42,12 +42,41 @@ html, body{
     font-size: 16px;
 }
 
+/* Style the Start button */
 #start_tct {
   background-color: green;
   color: white;
   border: none;
   padding: 8px;
   border-radius: 4px;
+}
+
+/* Style the Reset button */
+#clear_tct {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Style the Pickup button */
+#cycle_tct {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Style the Undo button */
+#undo_tct {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  margin-left: 20px;
 }
 
 #autonHeader, #teleopHeader1, #teleopHeader2{
