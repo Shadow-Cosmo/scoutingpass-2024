@@ -94,13 +94,15 @@ html, body{
 
 /* Style the Pickup button */
 #cycle_tct {
-  background-color: blue;
+  background-color: #3b9aa3;
   color: white;
   border: none;
   padding: 8px;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 4px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 /* Style the Undo button */
