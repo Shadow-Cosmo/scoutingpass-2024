@@ -150,6 +150,11 @@ var config_data = `
 		"type": "counter"
 		},
 		{
+			"name": "Crossed Charge Station?",
+			"code": "tcs",
+			"type": "bool"
+		},
+		{
 			"name": "Final Status",
 			"code": "fs",
 			"type": "radio",
@@ -171,10 +176,16 @@ var config_data = `
 	],
 	"postmatch":[
 		{
+			"name": "Played Defense?",
+			"code": "pd",
+			"type": "bool"
+		},
+		{
 			"name": "Was Defended?",
 			"code": "df",
 			"type": "bool"
 		},
+		
 		{
 			"name": "Ground Pickup",
 			"code": "gp",
