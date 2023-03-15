@@ -163,7 +163,7 @@ if(data.code == "tct") {
     button4.setAttribute("id", "undo_" + data.code);
     button4.setAttribute("type", "button");
     button4.setAttribute("onclick", "undoCycle(this.parentElement)");
-    button4.setAttribute("value", "Undo");
+    button4.setAttribute("value", "Feed");
     button4.setAttribute('style', "margin-left: 20px;");
     cell.appendChild(button4);
     
