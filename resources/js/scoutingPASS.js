@@ -97,7 +97,7 @@ function addTimer(table, idx, name, data) {
     button2.setAttribute("id", "undo_" + data.code);
     button2.setAttribute("type", "button");
     button2.setAttribute("onclick", "undoCycle(this.parentElement)");
-    button2.setAttribute("value", "Undo");
+    button2.setAttribute("value", "Feed");
     button2.setAttribute('style', "margin-left: 20px;");
     cell.appendChild(button2);
 	var button4 = document.createElement("input");
