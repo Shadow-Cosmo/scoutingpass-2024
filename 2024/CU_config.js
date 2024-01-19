@@ -1,7 +1,7 @@
 var config_data = `
 {
-	"title": "Scouting PASS 2023",
-	"page_title": "Charged Up",
+	"title": "Birds-Eye Scouting - 2024",
+	"page_title": "Crescendo",
 	"checkboxAs": "10",
 	"prematch": [{
 			"name": "Scouter Initals",
