@@ -689,7 +689,7 @@ function addElement(table, idx, data) {
 
 function configure() {
   try {
-    var mydata = JSON.parse(CU_config);
+    var mydata = JSON.parse(config_data);
   } catch (err) {
     console.log(`Error parsing configuration file`)
     console.log(err.message)
