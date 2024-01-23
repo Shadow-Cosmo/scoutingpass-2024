@@ -303,6 +303,23 @@ input[type=radio]:focus {
   outline-color: transparent;
 }
 
+input[type=checkbox] {
+	display:inline-block;
+	vertical-align: middle;
+	border: 1px solid #fff;
+	padding: 0.5em;
+	-webkit-appearance: none;
+}
+
+input[type=checkbox]:checked {
+  background: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat center center;
+  background-size: 9px 9px;
+}
+
+input[type=checkbox]:focus {
+  outline-color: transparent;
+}
+
 
 
 .title {
