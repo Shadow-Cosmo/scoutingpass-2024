@@ -93,37 +93,20 @@ var config_data = `
 			"showUndo": "false",
 			"shape": "circle 10 black lime true"
 		},
-{
-		"name": "Pickup",
-		"code": "apu",
+		{
+		"name": "Scores",
+		"code": "as",
 		"type": "counter"
 		},
-{
+		{
+			"name": "Misses",
+			"code": "am",
+			"type": "counter"
+			},
+		{
 			"name": "Mobility?",
 			"code": "am",
 			"type": "bool"
-		},
-		{
-			"name": "Crossed Charge Station?",
-			"code": "acs",
-			"type": "bool"
-		},
-		{
-			"name": "Crossed Cable?",
-			"code": "ac",
-			"type": "bool"
-		},
-		{
-			"name": "Docked",
-			"code": "ad",
-			"type": "radio",
-			"choices": {
-				"d": "Docked (not Engaged)<br>",
-				"e": "Engaged<br>",
-				"a": "Attempted but failed<br>",
-				"x": "Not attempted"
-			},
-			"defaultValue": "x"
 		}
 	],
 	"teleop": [{
