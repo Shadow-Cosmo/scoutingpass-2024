@@ -85,7 +85,7 @@ var config_data = `
 			"name": "Auto Scoring",
 			"code": "asg",
 			"type": "clickable_image",
-			"filename": "2024/half_field_image.png",
+			"filename": "2024/field_image.png",
 			"dimensions": "9 4",
 			"clickRestriction": "onePerBox",
 			"toggleClick": "true",
