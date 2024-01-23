@@ -86,12 +86,12 @@ var config_data = `
 			"code": "asg",
 			"type": "clickable_image",
 			"filename": "2024/field_image.png",
-			"dimensions": "9 4",
+			"dimensions": "9 5",
 			"clickRestriction": "onePerBox",
 			"toggleClick": "true",
 			"showFlip": "false",
 			"showUndo": "false",
-			"shape": "circle 12 black purple true"
+			"shape": "circle 10 black lime true"
 		},
 {
 		"name": "Pickup",
