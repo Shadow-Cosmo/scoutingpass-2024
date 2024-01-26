@@ -65,9 +65,9 @@ var config_data = `
 			"code": "pr",
 			"type": "radio",
 			"choices": {
-				"cu": "Cube<br>",
-				"co": "Cone<br>",
-				"x": "No Preload"
+				"y": "Yes",
+				"n": "No"
+				
 			},
 			"defaultValue": "x"
 		},
@@ -115,17 +115,10 @@ var config_data = `
 			"type": "cycle"
 		},
 		{
-			"name": "Grid Scoring",
-			"code": "tsg",
-			"type": "clickable_image",
-			"filename": "2024/half_field_image.jpg",
-			"dimensions": "9 4",
-			"clickRestriction": "onePerBox",
-			"toggleClick": "true",
-			"showFlip": "false",
-			"showUndo": "false",
-			"shape": "circle 12 black purple true",
-			"cycleTimer": "tct"
+			"name": "Shooting Spot",
+			"code": "ss",
+			"type": "field_image",
+			"filename": "2024/field_image.png"
 		},
 		{
 		"name": "Dropped",
@@ -133,8 +126,8 @@ var config_data = `
 		"type": "counter"
 		},
 		{
-			"name": "Crossed Charge Station?",
-			"code": "tcs",
+			"name": "Trap?",
+			"code": "tr",
 			"type": "bool"
 		},
 		{
@@ -143,16 +136,15 @@ var config_data = `
 			"type": "radio",
 			"choices": {
 				"p": "Parked<br>",
-				"d": "Docked (Not Engaged)<br>",
-				"e": "Engaged<br>",
-				"a": "Attempted but failed<br>",
+				"c": "Climbed<br>",
+				"f": "Attempted but failed<br>",
 				"x": "Not attempted"
 			},
 			"defaultValue": "x"
 		},
 		{
-			"name": "Total # of alliance<br>robots docked/engaged",
-			"code": "dn",
+			"name": "Total # of alliance members climbed",
+			"code": "ac",
 			"type": "counter"
 		}
 		
@@ -175,13 +167,13 @@ var config_data = `
 			"type": "bool"
 		},
 		{
-			"name": "Tray Pickup",
-			"code": "tp",
+			"name": "Amp Capability",
+			"code": "ac",
 			"type": "bool"
 		},
 		{
-			"name": "Chute Pickup",
-			"code": "cp",
+			"name": "Source Pickup",
+			"code": "sp",
 			"type": "bool"
 		},
 		{
